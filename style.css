@@ -25,6 +25,7 @@ body {
 	letter-spacing: 0.5px;
 	line-height: 2;
 	color: #1c1b1b;
+	
 
 }
 
@@ -247,7 +248,7 @@ button:focus {
 	float: left;
 	width: 100%;
 	padding: 15% 10%;
-	text-align: center;
+	text-align: left;
 }
 
 .mu-featured-area h1 {
