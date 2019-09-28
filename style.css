@@ -616,6 +616,19 @@ button:focus {
 }
 
 
+.mu-primary-btn:hover,
+.mu-primary-btn:focus,
+.mu-filter-link:hover,
+.mu-filter-imglink:hover,
+.mu-filter-link:focus,
+.mu-filter-imglink:focus,
+.mu-simplefilter li:hover,
+.mu-simplefilter li.active,
+.mu-copy-right a:hover,
+.mu-copy-right a:focus {
+	color: #242424;
+}
+
 
 @media (max-width: 320px){
 
