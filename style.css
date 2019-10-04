@@ -15,7 +15,7 @@
 body,
 html {
 	overflow-x:hidden;
-	background-color: #242424;
+	background-color: #202124;
 
 }
 
@@ -626,7 +626,7 @@ button:focus {
 .mu-simplefilter li.active,
 .mu-copy-right a:hover,
 .mu-copy-right a:focus {
-	color: #242424;
+	color: ##202124;
 }
 
 
