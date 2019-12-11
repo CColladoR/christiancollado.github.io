@@ -1,7 +1,7 @@
 {
     "name": "Christian Collado",
     "short_name": "Christian",
-    "start_url": "/index.html",
+    "start_url": "/",
     "display": "standalone",
     "background_color": "#e4e4e4",
     "theme_color": "#e4e4e4",
