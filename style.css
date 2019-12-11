@@ -2,7 +2,7 @@
 body {
 	overflow-x:hidden;
 	font-family: 'Work Sans', sans-serif;
-	font-size: 17px;
+	font-size: 20px;
 	letter-spacing: 0.5px;
 	line-height: 2;
 	background-color: #e4e4e4;
@@ -48,11 +48,11 @@ h6 {
 
 
 h1 {
-	font-size: 38px;
+	font-size: 25px;
 }
 
 h2 {
-	font-size: 28px;
+	font-size: 20px;
 	line-height: 1.13;
 }
 
@@ -215,7 +215,7 @@ button:focus {
 }
 
 .mu-featured-area h1 {
-	font-size: 60px;
+	font-size: 50px;
 	color: #444;
 	font-weight: 700;
 	margin-bottom: 0;
@@ -237,7 +237,7 @@ button:focus {
 .mu-featured-slider p,
 #typed {
 	color: #444;
-	font-size: 30px;
+	font-size: 22px;
 	font-weight: 300;
 }
 
@@ -245,12 +245,12 @@ button:focus {
 #typed span,
 .typed-cursor {
 	color: #444;
-	font-size: 28px;
+	font-size: 22px;
 	font-weight: 600;
 }
 
 .mu-featured-content {
-	margin-top: 15px;
+	margin-top: 45px;
 	display: inline;
 	float: left;
 	width: 100%;
