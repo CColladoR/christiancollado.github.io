@@ -39,7 +39,6 @@ body {
 }
 
 a {
-
   text-decoration: none;
   display: block;
   cursor: pointer;
@@ -56,6 +55,7 @@ a:hover b, a:focus b {
 }
 a:active b {
   color: #339A99;
+  text-decoration: none
 }
 
 svg {
@@ -402,6 +402,14 @@ main > div:last-child span:last-child {
   }
   main > div svg polygon {
     fill: #444;
+  }
+
+  a {
+  	text-decoration: none;
+  }
+
+  a:visited {
+  	text-decoration: none;
   }
 
   @-webkit-keyframes pulseColor {
