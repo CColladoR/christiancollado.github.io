@@ -88,13 +88,23 @@
     </div>
   </div>
 </section>
-<script src="/upup.min.js"></script>
-  <script>
+
+<script>
+  // register ServiceWorker, remember to use absolute path!
+  if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('/sw.js', {scope: '/{repository}/'})
+  }
+
+  // --- Application code here ---
+  </script>
+
+<!-- <script src="/upup.min.js"></script>
+ <script>
     UpUp.start({
       'content-url': 'offline.html'
      'assets': ['assets/css/bootstrap.min.css','css/offline.css']
     });
-  </script>
+  </script> -->
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
