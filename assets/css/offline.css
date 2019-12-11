@@ -23,7 +23,7 @@ ul li {
 
 a {
 	text-decoration: none;
-	color: #00a6a3;
+	color: #00524F;
 }
 
 a:hover,
@@ -187,7 +187,7 @@ button:focus {
 
 .mu-primary-btn:hover,
 .mu-primary-btn:focus {
-	background-color: #00a6a3;
+	background-color: #00524F;
 }
 
 
@@ -330,7 +330,7 @@ button:focus {
     color: #e4e4e4;
   }
   a {
-    color: #00a6a3;
+    color: #00F5F1;
   }
 
 	a:hover,

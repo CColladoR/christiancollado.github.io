@@ -60,7 +60,7 @@ a:focus {
 
 }
 a:active b {
-  color: #339A99;
+  color: #00524F;
   text-decoration: none
 }
 
@@ -76,7 +76,7 @@ svg {
 }
 .crack polyline {
   fill: none;
-  stroke: #339A99;
+  stroke: #00524F;
   stroke-width: 10px;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -192,13 +192,13 @@ main > div:last-child span:last-child {
     color: #444;
   }
   25% {
-    color: #339A99;
+    color: #00524F;
   }
   50% {
     color: #444;
   }
   75% {
-    color: #339A99;
+    color: #00524F;
   }
   100% {
     color: #444;
@@ -209,13 +209,13 @@ main > div:last-child span:last-child {
     color: #444;
   }
   25% {
-    color: #339A99;
+    color: #00524F;
   }
   50% {
     color: #444;
   }
   75% {
-    color: #339A99;
+    color: #00524F;
   }
   100% {
     color: #444;
@@ -423,13 +423,13 @@ main > div:last-child span:last-child {
       color: #e4e4e4;
     }
     25% {
-      color: #339A99;
+      color: #00F5F1;
     }
     50% {
-      color: #e4e4e4;
+      color: #00F5F1;
     }
     75% {
-      color: #339A99;
+      color: #00F5F1;
     }
     100% {
       color: #e4e4e4;
@@ -441,13 +441,13 @@ main > div:last-child span:last-child {
       color: #e4e4e4;
     }
     25% {
-      color: #339A99;
+      color: #00F5F1;
     }
     50% {
       color: #e4e4e4;
     }
     75% {
-      color: #339A99;
+      color: #00F5F1;
     }
     100% {
       color: #e4e4e4;
