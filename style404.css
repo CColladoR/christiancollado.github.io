@@ -52,8 +52,12 @@ a {
 a:visited {
   color:inherit;
 }
-a:hover b, a:focus b {
-  color: #339A99;
+a:hover,
+a:focus {
+	outline: none;
+	text-decoration:none;
+	color: #444;
+
 }
 a:active b {
   color: #339A99;

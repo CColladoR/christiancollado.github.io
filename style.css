@@ -29,7 +29,10 @@ a {
 a:hover,
 a:focus {
 	outline: none;
-	text-decoration: none;
+	text-decoration:none;
+	color: #444;
+	font-weight: bold;
+
 }
 
 h1,
@@ -329,6 +332,15 @@ button:focus {
   a {
     color: #339A99;
   }
+
+	a:hover,
+	a:focus {
+		outline: none;
+		text-decoration:none;
+		color: #e4e4e4;
+		font-weight: bold;
+
+	}
 
 	.mu-featured-content p{
 		color: #e4e4e4;
