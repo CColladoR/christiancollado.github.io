@@ -90,13 +90,19 @@
 </section>
 
 <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/serviceworker.js')
+  }
+</script>
+
+<!--<script>
   // register ServiceWorker, remember to use absolute path!
   if (navigator.serviceWorker) {
     navigator.serviceWorker.register('/{repository}/sw.js', {scope: '/{repository}/'})
   }
 
   // --- Application code here ---
-  </script>
+  </script>  -->
 
 <!-- <script src="/upup.min.js"></script>
  <script>
