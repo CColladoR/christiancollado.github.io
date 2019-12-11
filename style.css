@@ -17,7 +17,7 @@ ul {
 
 ul li {
 	list-style: disc;
-	font-size: 17px;
+	font-size: 20px;
 	line-height: 1.59;
 }
 
@@ -52,7 +52,7 @@ h1 {
 }
 
 h2 {
-	font-size: 32px;
+	font-size: 28px;
 	line-height: 1.13;
 }
 
@@ -245,7 +245,7 @@ button:focus {
 #typed span,
 .typed-cursor {
 	color: #444;
-	font-size: 30px;
+	font-size: 28px;
 	font-weight: 600;
 }
 
