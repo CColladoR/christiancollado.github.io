@@ -89,13 +89,14 @@
 </section>
 
 <!-- ServiceWorker -->
-
 <script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/service-worker.js')
+  // register ServiceWorker, remember to use absolute path!
+  if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('/{repository}/service-worker.js', {scope: '/{repository}/'})
   }
-</script>
 
+  // --- Application code here ---
+  </script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
