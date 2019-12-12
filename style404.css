@@ -60,7 +60,7 @@ a:focus {
 
 }
 a:active b {
-  color: #00524F;
+  color: #00F5F1;
   text-decoration: none
 }
 
@@ -76,7 +76,7 @@ svg {
 }
 .crack polyline {
   fill: none;
-  stroke: #00524F;
+  stroke: #00F5F1;
   stroke-width: 10px;
   stroke-linecap: round;
   stroke-linejoin: round;
