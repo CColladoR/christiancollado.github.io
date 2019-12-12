@@ -92,8 +92,13 @@
 <script>
   // register ServiceWorker, remember to use absolute path!
   if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('/service-worker.js', {scope: '/{repository}/'})
+    navigator.serviceWorker.register('/service-worker.js', {scope: '/'})
   }
+
+//  if (navigator.serviceWorker) {
+
+  // navigator.serviceWorker.register('/christiancollado.github.io/service-worker.js', {scope: '/christiancollado.github.io/'})
+//  }
 
   // --- Application code here ---
   </script>
