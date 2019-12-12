@@ -19,7 +19,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <title>Christian Collado</title>
-
+<link rel="canonical" href="https://christiancollado.github.io/{repository}/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -90,10 +90,13 @@
 </section>
 
 <script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/serviceworker.js')
+  // register ServiceWorker, remember to use absolute path!
+  if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('/{repository}/sw.js', {scope: '/{repository}/'})
   }
-</script>
+
+  // --- Application code here ---
+  </script>
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
