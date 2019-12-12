@@ -92,7 +92,7 @@
 <script>
   // register ServiceWorker, remember to use absolute path!
   if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('/service-worker.js', {scope: '/{repository}/'})
+    navigator.serviceWorker.register('/service-worker.js', {scope: '/'})
   }
 
   // --- Application code here ---
