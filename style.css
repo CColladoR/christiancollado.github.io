@@ -1,6 +1,6 @@
 
 body {
-	overflow:auto;
+	overflow:hidden;
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 20px;
 	letter-spacing: 0.5px;
@@ -42,13 +42,12 @@ h4,
 h5,
 h6 {
 	font-family: 'Montserrat', sans-serif;
-	
 	margin-top: 0;
 }
 
 
 h1 {
-	font-size: 25px;
+	font-size: 20px;
 }
 
 h2 {
@@ -210,14 +209,13 @@ button:focus {
 	display: inline;
 	float: left;
 	width: 100%;
-	padding: 15% 10%;
+	padding: 10% 10%;
 	text-align: left;
 }
 
 .mu-featured-area h1 {
-	font-size: 50px;
+	font-size: 43px;
 	color: #444;
-	
 	margin-bottom: 0;
 	line-height: 1;
 }
@@ -370,6 +368,12 @@ button:focus {
 	#typed {
 		color: #e4e4e4;
 	}
+
+	.mu-primary-btn:hover,
+.mu-primary-btn:focus {
+	background-color: #00F5F1;
+}
+
 
 
 }
