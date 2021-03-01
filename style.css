@@ -377,8 +377,9 @@ button:focus {
 	}
 
 	.mu-primary-btn:hover,
-.mu-primary-btn:focus {
+	.mu-primary-btn:focus {
 	background-color: #2cc08c;
+	color: #151618;
 }
 
 
