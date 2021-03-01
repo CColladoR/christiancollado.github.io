@@ -1,6 +1,6 @@
 
 body {
-	overflow:auto;
+	overflow:hidden;
 	font-family: 'PT Mono', monospace;
 	font-weight: 400;
 	line-height: 1.725;
