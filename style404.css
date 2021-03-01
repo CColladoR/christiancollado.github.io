@@ -24,11 +24,11 @@ body {
   padding: 12px;
   background: #e4e4e4;
   color: #444;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'PT Mono', monospace;
   font-size: 20px;
-  letter-spacing: 0.5px;
-  	line-height: 2;
-  text-rendering: optimizeLegibility;
+  letter-spacing: 0.01em;
+  line-height: 1.725;
+  text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -60,7 +60,7 @@ a:focus {
 
 }
 a:active b {
-  color: #00F5F1;
+  color: #2cc08c;
   text-decoration: none
 }
 
@@ -76,7 +76,7 @@ svg {
 }
 .crack polyline {
   fill: none;
-  stroke: #00F5F1;
+  stroke: #2cc08c;
   stroke-width: 10px;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -403,11 +403,11 @@ main > div:last-child span:last-child {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #232B2E;
+    background-color: #151618;
     color: #e4e4e4;
   }
   main > div svg polygon {
-    fill: #232B2E;
+    fill: #151618;
   }
 
   a {
@@ -423,13 +423,13 @@ main > div:last-child span:last-child {
       color: #e4e4e4;
     }
     25% {
-      color: #00F5F1;
+      color: #2cc08c;
     }
     50% {
-      color: #00F5F1;
+      color: #2cc08c;
     }
     75% {
-      color: #00F5F1;
+      color: #2cc08c;
     }
     100% {
       color: #e4e4e4;
@@ -441,13 +441,13 @@ main > div:last-child span:last-child {
       color: #e4e4e4;
     }
     25% {
-      color: #00F5F1;
+      color: #2cc08c;
     }
     50% {
       color: #e4e4e4;
     }
     75% {
-      color: #00F5F1;
+      color: #2cc08c;
     }
     100% {
       color: #e4e4e4;
