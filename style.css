@@ -9,6 +9,8 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	background-color: #e4e4e4;
+	display: block;
+	height: auto;
 	color: rgb(37, 37, 37);
 	
 
@@ -199,6 +201,7 @@ button:focus {
 	background-position: center center;
 	width: 100%;
 	display: block;
+	height: auto;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -254,6 +257,7 @@ button:focus {
 	margin-top: 45px;
 	display: block;
 	float: left;
+	height: auto;
 	font-size: 14px;
 	font-weight: 700;
 	width: 100%;
@@ -323,10 +327,11 @@ button:focus {
 }
 
 #footer {
-	position: absolute;
+	position: relative;
 	bottom: 0;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	width: 100%;
+	height: auto;
 	color: #666;
 	vertical-align: top;
 	text-align: center;
