@@ -328,6 +328,9 @@ button:focus {
     background-color: #232B2E;
     color: #e4e4e4;
   }
+  h1 {
+	  color: #00F5F1;
+  }
   a {
     color: #00F5F1;
   }
