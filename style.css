@@ -329,7 +329,7 @@ button:focus {
 #footer {
 	position: relative;
 	bottom: 0;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 	width: 100%;
 	height: auto;
 	color: #666;
@@ -423,7 +423,7 @@ button:focus {
 	}
 
 	.typed-cursor {
-		color: #e4e4e4;
+		color: #2cc08c;
 	}
 
 	.mu-primary-btn {
@@ -432,10 +432,14 @@ button:focus {
 	}
 
 	.mu-featured-slider span,
-	#typed span,
-	.typed-cursor {
+	#typed span {
 		color: #e4e4e4;
 
+	}
+
+	.mu-featured-slider
+	.typed-cursor{
+		color: #2cc08c;
 	}
 
 	.mu-featured-area h1 {
