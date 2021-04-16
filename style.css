@@ -262,6 +262,7 @@ button:focus {
 	height: auto;
 	font-size: 14px;
 	font-weight: 700;
+	line-height: 2.5;
 	width: 100%;
 }
 
