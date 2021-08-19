@@ -9,6 +9,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	background-color: #e4e4e4;
+	accent-color: 00524F;
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
@@ -404,6 +405,7 @@ button:focus {
   body {
     background-color: #151618;
     color: #e4e4e4;
+	accent-color:#2cc08c;
   }
   h1 {
 	  color: #2cc08c;
