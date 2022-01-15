@@ -1,8 +1,8 @@
 
 body {
 	overflow:auto;
-	font-family: 'PT Mono', monospace;
-	font-weight: 400;
+	font-family: 'Commissioner', sans-serif;
+	font-weight: 500;
 	line-height: 1.725;
 	letter-spacing: 0.01em;
 	text-rendering: geometricPrecision;
@@ -31,16 +31,18 @@ ul li {
 }
 
 a {
-	text-decoration: underline;
+	background-color: rgb(37, 37, 37);
 	/*color: #00524F;*/
-	color: #c60055;
+	/*color: #c60055;*/
+	text-decoration: none;
+	color: #e4e4e4;
 }
 
 a:hover,
 a:focus {
 	outline: none;
 	text-decoration:none;
-	color: #444;
+	color: #c60055;
 	font-weight: bold;
 
 }
@@ -56,7 +58,8 @@ h6 {
 
 
 h1 {
-	font-size: 20px;
+	font-family: 'Fraunces', serif;
+	font-size: 120px;
 }
 
 h2 {
@@ -224,9 +227,9 @@ button:focus {
 }
 
 .mu-featured-area h1 {
-	font-size: 30px;
+	font-size: 60px;
 	color: #444;
-	font-weight: 700;
+	font-weight: 800;
 	margin-bottom: 0;
 	line-height: 1;
 }
@@ -255,7 +258,7 @@ button:focus {
 #typed span,
 .typed-cursor {
 	color: #444;
-	font-size: 17px;
+	font-size: 20px;
 	
 }
 
@@ -264,7 +267,7 @@ button:focus {
 	display: block;
 	float: left;
 	height: auto;
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: 700;
 	line-height: 2.5;
 	width: 100%;
@@ -374,6 +377,7 @@ button:focus {
 	color: #c60055;
 	text-decoration: underline;
 	background-image: none;
+	background-color: transparent;
   }
   #footer a:hover {
 	color: #d86500;
@@ -419,14 +423,15 @@ button:focus {
   }
   a {
    /*color: #2cc08c;*/
-	color:#ff4081;
+	background-color:#e4e4e4; 
+	color:#151618;
   }
 
 	a:hover,
 	a:focus {
 		outline: none;
 		text-decoration:none;
-		color: #e4e4e4;
+		color: #ff4081;
 		font-weight: bold;
 
 	}
@@ -475,6 +480,7 @@ button:focus {
 
 #footer a {
 	color: #ffe100;
+	background-color: transparent;
   }
 
 
