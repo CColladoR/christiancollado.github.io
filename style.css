@@ -8,7 +8,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	background-color: #e4e4e4;
 	accent-color: 00524F;
-	display: flex;
+	display: block;
 	flex-direction: column;
 	min-height: 100vh;
 	height: auto;
