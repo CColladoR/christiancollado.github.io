@@ -23,6 +23,22 @@ a {
 	color: #e4e4e4;
 }
 
+#moreInfo p{
+	line-height: 2;
+}
+
+#moreInfo span{
+	margin-left: 10px;
+}
+
+
+#moreInfo a {
+	text-decoration: none;	
+	background-color: transparent;
+}
+
+
+
 a:hover,
 a:focus {
 	outline: none;
@@ -263,6 +279,25 @@ h1 {
 	background-color:#e4e4e4; 
 	color:#151618;
   }
+
+  #moreInfo{
+	  padding-top: 50px;
+  }
+
+  #moreInfo span{
+	  margin-left: 10px;
+  }
+
+  #moreInfo a {
+	text-decoration: none;	
+	background-color: transparent;
+	color:#616161;
+	word-spacing:50%;
+}
+
+#moreInfo a:hover{
+	color:#e4e4e4;
+}
 
 	a:hover,
 	a:focus {
