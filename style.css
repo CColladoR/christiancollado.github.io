@@ -12,13 +12,13 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 	height: auto;
-	color: rgb(37, 37, 37);
+	color: #444;
 	
 
 }
 
 a {
-	background-color: rgb(37, 37, 37);
+	background-color:#444;
 	text-decoration: none;
 	color: #e4e4e4;
 }
@@ -35,6 +35,12 @@ a {
 #moreInfo a {
 	text-decoration: none;	
 	background-color: transparent;
+	color: rgb(138, 138, 138);
+}
+
+#moreInfo a:hover{
+	color: #e4e4e4;
+	background-color: #444;
 }
 
 
@@ -296,7 +302,8 @@ h1 {
 }
 
 #moreInfo a:hover{
-	color:#e4e4e4;
+	color: #444;
+	background-color: #e4e4e4;
 }
 
 	a:hover,
