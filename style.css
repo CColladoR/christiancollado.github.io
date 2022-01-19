@@ -119,7 +119,7 @@ h1 {
 .mu-featured-slider span,
 #typed span,
 .typed-cursor {
-	color: #444;
+	color: rgb(98, 98, 98);
 	font-weight: 700;
 	font-size: 23px;
 	line-height: 2;
@@ -323,7 +323,7 @@ h1 {
 
 	.typed-cursor {
 		/*color: #2cc08c;*/
-		color:ff4081;
+		color:#ff4081;
 	}
 
 	.mu-primary-btn {
@@ -333,7 +333,7 @@ h1 {
 
 	.mu-featured-slider span,
 	#typed span {
-		color: #e4e4e4;
+		color: #616161;
 
 	}
 

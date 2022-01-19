@@ -3,7 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Three.js Scroll Based Animation</title>
+    <meta name="description" content="Christian Collado, editor en Andro4all">
+    <meta name="keywords" content="Christian Collado, Christian Collado, Andro4all, Android, Smartphones, Editor, SEO, Smartphones, tecnología">
+    <meta name="author" content="Christian Collado Ruiz">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Christian Collado Ruiz - Biografía y trabajo</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#339a99">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="./style.css">
 
     <!-- Fonts -->
@@ -36,5 +50,12 @@
     <script src="./three.min.js"></script>
     <script src="./gsap.min.js"></script>
     <script src="./script.js"></script>
+
+    <!-- ServiceWorker -->
+<script>
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register('/service-worker.js', {scope: '/'})
+    }
+    </script>
 </body>
 </html>
