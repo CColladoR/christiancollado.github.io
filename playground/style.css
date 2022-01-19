@@ -5,7 +5,15 @@
 }
 
 html {
-    background:#2c2c2c;
+    background:#151618;
+}
+
+body {
+    text-rendering: geometricPrecision;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+    display: block;
+	flex-direction: column;
 }
 
 .webgl
@@ -24,7 +32,7 @@ html {
     position: relative;
     font-family:'Fraunces', serif;
     color: #ff4081;
-    font-size: 7vmin;
+    font-size: 6vmin;
     padding-left: 10%;
     padding-right: 10%;
     will-change: transform;
@@ -42,10 +50,33 @@ h2 {
 	font-weight: 700;
 	line-height: 1.8;
     color: #e4e4e4;
-    display: block;
-    float: right;
+    display: inline-block;
     position: relative;
+    width: 60%;
 }
+
+#contact{
+    font-family: 'Commissioner', sans-serif;
+    font-size: 23px;
+	font-weight: 700;
+	line-height: 1.8;
+    color: #e4e4e4;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    width: 50%;
+}
+
+#contact a {
+    color: rgb(112, 112, 112);
+    background-color: transparent;
+}
+
+a {
+     background-color:#e4e4e4; 
+     color:#151618;
+     text-decoration: none;
+   }
 
 section:nth-child(odd)
 {
