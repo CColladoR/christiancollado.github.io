@@ -11,9 +11,7 @@ html {
 body {
     text-rendering: geometricPrecision;
 	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-    display: block;
-	flex-direction: column;
+	-webkit-font-smoothing: antialiased;	
 }
 
 .webgl
@@ -22,7 +20,6 @@ body {
     top: 0;
     left: 0;
 }
-
 
 .section
 {
@@ -41,7 +38,6 @@ body {
 h2 {
     color: #e4e4e4;
     font-size: 5vmin;
-
 }
 
 #about{
@@ -53,6 +49,10 @@ h2 {
     display: inline-block;
     position: relative;
     width: 60%;
+}
+
+.breaker{
+    clear:both;
 }
 
 #contact{
@@ -72,13 +72,18 @@ h2 {
     background-color: transparent;
 }
 
+#contact a:hover {
+    color:#151618;
+    background-color:#e4e4e4;
+}
+
 a {
      background-color:#e4e4e4; 
      color:#151618;
      text-decoration: none;
    }
 
-section:nth-child(odd)
-{
-    justify-content: flex-end;
-}
+   section:nth-child(odd)
+   {
+       justify-content: flex-end;
+   }
