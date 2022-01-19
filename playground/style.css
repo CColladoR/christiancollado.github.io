@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background:#2c2c2c;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.section
+{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family:'Fraunces', serif;
+    color: #ff4081;
+    font-size: 7vmin;
+    padding-left: 10%;
+    padding-right: 10%;
+    will-change: transform;
+}
+
+h2 {
+    color: #e4e4e4;
+    font-size: 5vmin;
+
+}
+
+#about{
+    font-family: 'Commissioner', sans-serif;
+    font-size: 23px;
+	font-weight: 700;
+	line-height: 1.8;
+    color: #e4e4e4;
+    display: block;
+    float: right;
+    position: relative;
+}
+
+section:nth-child(odd)
+{
+    justify-content: flex-end;
+}

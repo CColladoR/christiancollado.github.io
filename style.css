@@ -1,4 +1,8 @@
 
+html {
+	background: #1e1a20;
+}
+
 body {
 	overflow:auto;
 	font-family: 'Commissioner', sans-serif;
@@ -6,7 +10,7 @@ body {
 	text-rendering: geometricPrecision;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	background-color: #e4e4e4;
+	background-color: #1e1a20;
 	accent-color: 00524F;
 	display: block;
 	flex-direction: column;
