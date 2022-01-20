@@ -1,6 +1,6 @@
 
 html {
-	background: #1e1a20;
+	background: #e4e4e4;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 	text-rendering: geometricPrecision;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	background-color: #1e1a20;
+	background-color: #e4e4e4;
 	accent-color: #c60055;
 	display: block;
 	flex-direction: column;
@@ -274,7 +274,13 @@ h1 {
 
 
 @media (prefers-color-scheme: dark) {
-  body {
+  
+	html {
+		background: #151618;
+	}
+
+	
+	body {
     background-color: #151618;
     color: #e4e4e4;
 	/*accent-color:#2cc08c;*/
