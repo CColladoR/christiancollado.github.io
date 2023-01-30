@@ -5,13 +5,13 @@ html {
 
 body {
 	overflow:auto;
-	font-family: 'Commissioner', sans-serif;
+	font-family: 'Taviraj', serif;
 	font-weight: 700;
 	text-rendering: geometricPrecision;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	background-color: #e4e4e4;
-	accent-color: #c60055;
+	accent-color: #9E489F;
 	display: block;
 	flex-direction: column;
 	min-height: 100vh;
@@ -22,9 +22,9 @@ body {
 }
 
 a {
-	background-color:#444;
-	text-decoration: none;
-	color: #e4e4e4;
+	
+	text-decoration: underline;
+	color: #9E489F;
 }
 
 #moreInfo p{
@@ -53,11 +53,11 @@ a:hover,
 a:focus {
 	outline: none;
 	text-decoration:none;
-	color: #c60055;
+	color: #9E489F;
 }
 
 h1 {
-	font-family: 'Fraunces', serif;
+	font-family: 'Oswald', erif;
 	font-size: 120px;
 }
 
@@ -237,7 +237,7 @@ h1 {
   #footer a {
 	
 	/*color: #00524F;*/
-	color: #c60055;
+	color: #9E489F;
 	text-decoration: underline;
 	background-image: none;
 	background-color: transparent;
@@ -284,16 +284,14 @@ h1 {
     background-color: #151618;
     color: #e4e4e4;
 	/*accent-color:#2cc08c;*/
-	accent-color:#ff4081;
+	accent-color:#9E489F;
   }
   h1 {
 	  /*color: #2cc08c;*/
-	  color:#ff4081;
+	  color:#9E489F;
   }
   a {
-   /*color: #2cc08c;*/
-	background-color:#e4e4e4; 
-	color:#151618;
+   color: #9e489f;
   }
 
   #moreInfo{
@@ -320,7 +318,7 @@ h1 {
 	a:focus {
 		outline: none;
 		text-decoration:none;
-		color: #ff4081;
+		color: #9E489F;
 	}
 
 	.mu-featured-content p{
@@ -329,7 +327,7 @@ h1 {
 
 	.typed-cursor {
 		/*color: #2cc08c;*/
-		color:#ff4081;
+		color:#9E489F;
 	}
 
 	.mu-primary-btn {
@@ -346,12 +344,12 @@ h1 {
 	.mu-featured-slider
 	.typed-cursor{
 		/*color: #2cc08c;*/
-		color:#ff4081;
+		color:#9E489F;
 	}
 
 	.mu-featured-area h1 {
 		/*color: #2cc08c;*/
-		color:#ff4081;
+		color:#9E489F;
 	}
 	.mu-featured-slider p,
 	#typed {
@@ -361,7 +359,7 @@ h1 {
 	.mu-primary-btn:hover,
 	.mu-primary-btn:focus {
 	/*background-color: #2cc08c;*/
-	background-color:#ff4081;
+	background-color:#9E489F;
 	color: #151618;
 }
 
