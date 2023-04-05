@@ -147,7 +147,6 @@ a {
 	margin-left: 10px;
 }
 
-
 #moreInfo a {
 	text-decoration: none;	
 	background-color: transparent;
@@ -159,8 +158,6 @@ a {
 	background-color: #444;
 }
 
-
-
 a:hover,
 a:focus {
 	outline: none;
@@ -169,7 +166,12 @@ a:focus {
 }
 
 h1 {
-	font-family: 'Oswald', erif;
+	font-family: 'Oswald', serif;
+	font-size: 120px;
+}
+
+h2 {
+	font-family: 'Oswald', serif;
 	font-size: 120px;
 }
 
@@ -183,7 +185,7 @@ h1 {
 	background-position: center center;
 	width: 100%;
 	display: block;
-	height: auto;
+	height: 1200px;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -195,11 +197,12 @@ h1 {
 	display: block;
 	float: left;
 	width: 100%;
+	height: 100%;
 	padding: 20% 5%;
 	text-align: left;
 }
 
-.mu-featured-area h1 {
+.mu-featured-area h1, h2 {
 	font-size: 60px;
 	color: #444;
 	font-weight: 800;
@@ -211,6 +214,7 @@ h1 {
 	display: inline;
 	float: left;
 	width: 100%;
+	height: 100%;
 	margin-top: 15px;
 }
 
@@ -218,6 +222,7 @@ h1 {
 	display: inline;
 	float: left;
 	width: 100%;
+	height: 100%;
 }
 	
 
@@ -241,7 +246,7 @@ h1 {
 	margin-top: 23px;
 	display: flex;
 	float: left;
-	height: auto;
+	height: 100%;
 	font-size: 23px;
 	font-weight: 700;
 	line-height: 1.8;
@@ -254,6 +259,11 @@ h1 {
 
 .mu-featured-content a{
 	margin-top: 35px;
+}
+
+#rssfeed {
+	width: 100%;
+	height: 100%;
 }
 
 
@@ -383,6 +393,11 @@ h1 {
 
 @media (max-width: 320px){
 
+}
+
+img {
+	border-radius: 99px;
+	width: 200px;
 }
 
 
