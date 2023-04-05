@@ -1,4 +1,119 @@
 
+:root {
+	--transition-duration-long: 0.5s;
+    --transition-duration-short: 0.25s;
+    --background: #fff;
+    --foreground: #000;
+    --grayish: hsl(225deg 30% 20% / 5%);
+    --gray: hsl(225deg 20% 20% / 10%);
+    --cyan: #0ff;
+    --magenta: #f0f;
+    --yellow: #ff0;
+    --red: #f00;
+    --green: #0f0;
+    --blue: #00f;
+	--selection-accent: var(--yellow);
+	--composite-color-1: var(--yellow);
+    --composite-color-2: var(--magenta);
+    --composite-color-3: var(--cyan);
+    --composite-color-a: var(--blue);
+    --composite-color-b: var(--green);
+    --composite-color-c: var(--red);
+    --composite-blend-mode: multiply;
+	--font-size-hero: 5.5rem;
+    --font-size-title: 2.375rem;
+    --font-size-heading: 1.75rem;
+    --font-size-body: 1.1875rem;
+    --font-size-post-scriptum: 1.375rem;
+    --border-thickness: 0.125rem;
+    --shadow-distance: 0.25rem
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+    :root {
+        --cyan: color(display-p3 0 1 1);
+        --magenta: color(display-p3 1 0 1);
+        --yellow: color(display-p3 1 1 0);
+        --red: color(display-p3 1 0 0);
+        --green: color(display-p3 0 1 0);
+        --blue: color(display-p3 0 0 1)
+    }
+}
+
+*,*::before,*::after {
+    box-sizing: border-box
+}
+
+::selection {
+    background: var(--foreground);
+    color: var(--background)
+}
+
+pre {
+    margin: 1rem 0 calc(1rem + var(--shadow-distance));
+    padding: 1rem;
+    font-size: var(--font-size-body);
+    background: var(--foreground);
+    color: var(--background);
+    box-shadow: calc(var(--border-thickness) + var(--shadow-distance)) calc(var(--border-thickness) + var(--shadow-distance)) 0 calc(var(--border-thickness) * -1) var(--magenta);
+    overflow: auto
+}
+
+pre ::selection {
+    background: var(--selection-accent);
+    color: var(--foreground)
+}
+
+.composite {
+    display: inline-block;
+    position: relative;
+    color: var(--foreground);
+    cursor: default;
+    --layer-offset: 0.15em
+}
+
+.composite a {
+    text-decoration: none
+}
+
+.composite a:hover {
+    opacity: inherit
+}
+
+@supports (mix-blend-mode: multiply) {
+    .composite {
+        color:var(--composite-color-2);
+        mix-blend-mode: var(--composite-blend-mode)
+    }
+
+    .composite::before,.composite::after {
+        content: attr(content);
+        transition: transform var(--transition-duration-long) cubic-bezier(0.4, 0, 0.2, 1);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        mix-blend-mode: var(--composite-blend-mode);
+        pointer-events: none
+    }
+
+    .composite::before {
+        transform: translate(calc(-1 * var(--layer-offset)), calc(-1 * var(--layer-offset)));
+        color: var(--composite-color-1)
+    }
+
+    .composite::after {
+        transform: translate(var(--layer-offset), var(--layer-offset));
+        color: var(--composite-color-3)
+    }
+
+    .composite:hover::before,.composite:hover::after {
+        transform: none
+    }
+}
+
+
 html {
 	background: #e4e4e4;
 }
@@ -7,7 +122,7 @@ body {
 	overflow:auto;
 	font-family: 'Taviraj', serif;
 	font-weight: 700;
-	text-rendering: geometricPrecision;
+	text-rendering: optimizeLegibility;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	background-color: #e4e4e4;
@@ -17,12 +132,9 @@ body {
 	min-height: 100vh;
 	height: auto;
 	color: #444;
-	
-
 }
 
 a {
-	
 	text-decoration: underline;
 	color: #9E489F;
 }
@@ -83,7 +195,7 @@ h1 {
 	display: block;
 	float: left;
 	width: 100%;
-	padding: 10% 5%;
+	padding: 20% 5%;
 	text-align: left;
 }
 
@@ -92,7 +204,7 @@ h1 {
 	color: #444;
 	font-weight: 800;
 	margin-bottom: 0;
-	line-height: 1;
+	line-height: 1.2;
 }
 
 .mu-featured-slider-wrapper {
@@ -148,6 +260,7 @@ h1 {
 /*--------------------*/
 /* RESPONSIVE STYLE */
 /*--------------------*/
+
 
 @media (max-width: 1199px) {
 
@@ -368,6 +481,18 @@ h1 {
 	background-color: transparent;
   }
 
-
-
+  :root {
+	--background: #0f0f0f;
+	--foreground: #fff;
+	--grayish: hsl(225deg 100% 95% / 8%);
+	--gray: hsl(225deg 100% 92% / 12%);
+	--composite-color-1: var(--blue);
+	--composite-color-2: var(--green);
+	--composite-color-3: var(--red);
+	--composite-color-a: var(--yellow);
+	--composite-color-b: var(--magenta);
+	--composite-color-c: var(--cyan);
+	--composite-blend-mode: screen;
+	--selection-accent: var(--blue)
+}
 }
