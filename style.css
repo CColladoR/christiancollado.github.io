@@ -115,7 +115,8 @@ pre ::selection {
 
 
 html {
-	background: #e4e4e4;
+	/*background: #e4e4e4;*/
+	background: #ffffe5;
 }
 
 body {
@@ -124,18 +125,18 @@ body {
 	text-rendering: optimizeLegibility;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	background-color: #e4e4e4;
-	accent-color: #9E489F;
+	background-color: #ffffe5;
+	accent-color: #000;
 	display: block;
 	flex-direction: column;
 	min-height: 100vh;
 	height: auto;
-	color: #444;
+	color: #000;
 }
 
 a {
-	text-decoration: none;
-	color: #9E489F;
+	text-decoration: underline;
+	color: #000;
 }
 
 #moreInfo p{
@@ -149,24 +150,24 @@ a {
 #moreInfo a {
 	text-decoration: none;	
 	background-color: transparent;
-	color: rgb(138, 138, 138);
+	color: #b7b7b7;;
 }
 
 #moreInfo a:hover{
-	color: #e4e4e4;
-	background-color: #9E489F;
+	color: #000;
 }
 
 a:hover,
 a:focus {
 	outline: none;
-	text-decoration:none;
-	color: #9E489F;
+	text-decoration:underline;
+	color: #000;
 }
 
 h1 {
 	font-family: 'DM Serif Display', serif;
-	font-size: 120px;
+	font-size: 200px;
+	color: #000;
 }
 
 /*--------------------*/
@@ -198,7 +199,7 @@ h1 {
 
 .mu-featured-area h1, h2 {
 	font-size: 60px;
-	color: #444;
+	color: #000;
 	font-weight: 800;
 	margin-bottom: 0;
 	line-height: 1.1;
@@ -222,16 +223,16 @@ h1 {
 
 .mu-featured-slider p,
 #typed {
-	color: #444;
+	color: #b7b7b7;
 	font-size: 16px;
 }
 
 .mu-featured-slider span,
 #typed span,
 .typed-cursor {
-	color: rgb(98, 98, 98);
+	color: #232323;
 	font-weight: 700;
-	font-size: 23px;
+	font-size: 19px;
 	line-height: 2;
 }
 
@@ -240,13 +241,13 @@ h1 {
 	display: flex;
 	float: left;
 	height: 100%;
-	font-size: 21px;
+	font-size: 19px;
 	line-height: 2;
 	width: 100%;
 }
 
 .mu-featured-content p{
-	color: #444;
+	color: #000;
 }
 
 .mu-featured-content a{
@@ -312,22 +313,21 @@ h1 {
 @media (prefers-color-scheme: dark) {
   
 	html {
-		background: #151618;
+		background: #000;
 	}
 
 	
 	body {
-    background-color: #151618;
+    background-color: #000;
     color: #e4e4e4;
-	/*accent-color:#2cc08c;*/
-	accent-color:#9E489F;
+	accent-color:#ffffe5;
   }
   h1 {
 	  /*color: #2cc08c;*/
-	  color:#9E489F;
+	  color:#ffffe5;
   }
   a {
-   color: #9e489f;
+   color: #ffffe5;
   }
 
   #moreInfo{
@@ -346,24 +346,23 @@ h1 {
 }
 
 #moreInfo a:hover{
-	color: #444;
-	background-color: #e4e4e4;
+	color: #ffffe5;
 }
 
 	a:hover,
 	a:focus {
 		outline: none;
 		text-decoration:none;
-		color: #9E489F;
+		color: #ffffe5;
 	}
 
 	.mu-featured-content p{
-		color: #e4e4e4;
+		color: #ffffe5;
 	}
 
 	.typed-cursor {
 		/*color: #2cc08c;*/
-		color:#9E489F;
+		color:#ffffe5;
 	}
 
 	.mu-primary-btn {
@@ -380,12 +379,12 @@ h1 {
 	.mu-featured-slider
 	.typed-cursor{
 		/*color: #2cc08c;*/
-		color:#9E489F;
+		color:#ffffe5;
 	}
 
 	.mu-featured-area h1 {
 		/*color: #2cc08c;*/
-		color:#9E489F;
+		color:#ffffe5;
 	}
 	.mu-featured-slider p,
 	#typed {
@@ -394,15 +393,9 @@ h1 {
 
 	.mu-primary-btn:hover,
 	.mu-primary-btn:focus {
-	/*background-color: #2cc08c;*/
 	background-color:#9E489F;
 	color: #151618;
 }
-
-#footer a {
-	color: #ffe100;
-	background-color: transparent;
-  }
 
   :root {
 	--background: #0f0f0f;
