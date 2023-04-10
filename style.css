@@ -121,8 +121,9 @@ html {
 
 body {
 	overflow:auto;
-	font-family: 'DM Sans', sans-serif;
-	text-rendering: optimizeLegibility;
+	font-weight: 400;
+	font-family: 'Inter Tight', sans-serif;
+	text-rendering: geometricPrecision;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	background-color: #ffffe5;
@@ -159,14 +160,13 @@ a {
 
 a:hover,
 a:focus {
-	outline: none;
+	background-color: #000;
 	text-decoration:underline;
-	color: #000;
+	color: #ffffe5;
 }
 
 h1 {
 	font-family: 'DM Serif Display', serif;
-	font-size: 200px;
 	color: #000;
 }
 
@@ -198,11 +198,11 @@ h1 {
 }
 
 .mu-featured-area h1, h2 {
-	font-size: 60px;
+	font-size: 80px;
 	color: #000;
 	font-weight: 800;
 	margin-bottom: 0;
-	line-height: 1.1;
+	line-height: 1;
 }
 
 .mu-featured-slider-wrapper {
@@ -223,21 +223,21 @@ h1 {
 
 .mu-featured-slider p,
 #typed {
-	color: #b7b7b7;
+	color: #000;
 	font-size: 16px;
 }
 
 .mu-featured-slider span,
 #typed span,
 .typed-cursor {
-	color: #232323;
-	font-weight: 700;
-	font-size: 19px;
-	line-height: 2;
+	color: #2b2b2b;
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 1;
 }
 
 .mu-featured-content {
-	margin-top: 20px;
+	margin-top: 22px;
 	display: flex;
 	float: left;
 	height: 100%;
@@ -351,9 +351,9 @@ h1 {
 
 	a:hover,
 	a:focus {
-		outline: none;
-		text-decoration:none;
-		color: #ffffe5;
+	background-color: #ffffe5;
+	text-decoration:underline;
+	color: #000;
 	}
 
 	.mu-featured-content p{
@@ -399,7 +399,7 @@ h1 {
 
   :root {
 	--background: #0f0f0f;
-	--foreground: #fff;
+	--foreground: #ffffe5;
 	--grayish: hsl(225deg 100% 95% / 8%);
 	--gray: hsl(225deg 100% 92% / 12%);
 	--composite-color-1: var(--blue);
