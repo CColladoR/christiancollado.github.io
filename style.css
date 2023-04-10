@@ -1,7 +1,7 @@
 :root {
 	--transition-duration-long: 0.5s;
 	--transition-duration-short: 0.25s;
-	--background: #fff;
+	--background: #ffffe5;
 	--foreground: #000;
 	--grayish: hsl(225deg 30% 20% / 5%);
 	--gray: hsl(225deg 20% 20% / 10%);
@@ -57,7 +57,7 @@ pre {
 	background: var(--foreground);
 	color: var(--background);
 	box-shadow: calc(var(--border-thickness) + var(--shadow-distance)) calc(var(--border-thickness) + var(--shadow-distance)) 0 calc(var(--border-thickness) * -1) var(--magenta);
-	overflow: auto
+	overflow: hidden;
 }
 
 pre ::selection {
@@ -118,7 +118,6 @@ pre ::selection {
 
 
 html {
-	/*background: #e4e4e4;*/
 	background: #ffffe5;
 }
 
@@ -126,7 +125,7 @@ body {
 	overflow: auto;
 	font-weight: 400;
 	font-family: 'Inter Tight', sans-serif;
-	text-rendering: geometricPrecision;
+	text-rendering: optimizeLegibility;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	background-color: #ffffe5;
@@ -162,8 +161,7 @@ a {
 	color: #000;
 }
 
-a:hover,
-a:focus {
+a:hover {
 	background-color: #000;
 	text-decoration: underline;
 	color: #ffffe5;
@@ -235,7 +233,7 @@ h2 {
 .mu-featured-slider span,
 #typed span,
 .typed-cursor {
-	color: #2b2b2b;
+	color: #000;
 	font-weight: 900;
 	font-size: 16px;
 	line-height: 1;
