@@ -3,8 +3,8 @@
     "short_name": "Christian",
     "start_url": "./",
     "display": "standalone",
-    "background_color": "#e4e4e4",
-    "theme_color": "#e4e4e4",
+    "background_color": "#ffffe5",
+    "theme_color": "#ffffe5",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",

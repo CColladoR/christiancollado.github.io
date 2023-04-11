@@ -142,8 +142,13 @@ a {
 	color: #000;
 }
 
+#moreInfo {
+	font-size: 12px;
+}
+
 #moreInfo p {
 	line-height: 2;
+
 }
 
 #moreInfo span {
@@ -154,7 +159,6 @@ a {
 	text-decoration: none;
 	background-color: transparent;
 	color: #b7b7b7;
-	;
 }
 
 #moreInfo a:hover {
@@ -202,6 +206,15 @@ h1 {
 .mu-featured-area h1,
 h2 {
 	font-size: 70px;
+	color: #000;
+	font-weight: 800;
+	margin-bottom: 0;
+	line-height: 1;
+}
+
+.mu-featured-area
+h2 {
+	font-size: 50px;
 	color: #000;
 	font-weight: 800;
 	margin-bottom: 0;
@@ -257,6 +270,53 @@ h2 {
 	margin-top: 35px;
 }
 
+/*--------------------*/
+/*      CAROUSEL      */
+/*--------------------*/
+
+.carousel {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	padding-bottom: 60px;
+}
+
+.card {
+	flex: 0 0 auto;
+	margin-right: 20px;
+	overflow: hidden;
+	width: 300px;
+	text-decoration: none;
+	background-color: #ffffe5;
+}
+
+.card-image {
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+	filter: brightness(100%) grayscale(20%) sepia(30%);
+	box-shadow: 1px 1px 0px #000,
+		2px 2px 0px #000,
+		3px 3px 0px #000,
+		4px 4px 0px #000,
+		5px 5px 0px #000,
+		6px 6px 0px #000;
+}
+.card-image:hover{
+	filter: brightness(100%) grayscale(0%) sepia(0%);
+}
+
+.card-title {
+	padding: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.carousel a:hover {
+	text-decoration: none;
+	background-color: #ffffe5;
+	color: #000;
+}
 
 /*--------------------*/
 /* RESPONSIVE STYLE */
@@ -396,12 +456,6 @@ h2 {
 		color: #e4e4e4;
 	}
 
-	.mu-primary-btn:hover,
-	.mu-primary-btn:focus {
-		background-color: #9E489F;
-		color: #151618;
-	}
-
 	:root {
 		--background: #0f0f0f;
 		--foreground: #ffffe5;
@@ -415,5 +469,26 @@ h2 {
 		--composite-color-c: var(--cyan);
 		--composite-blend-mode: screen;
 		--selection-accent: var(--blue)
+	}
+
+	.card-image {
+		box-shadow: 1px 1px 0px #ffffe5,
+			2px 2px 0px #ffffe5,
+			3px 3px 0px #ffffe5,
+			4px 4px 0px #ffffe5,
+			5px 5px 0px #ffffe5,
+			6px 6px 0px #ffffe5;
+	}
+
+	.carousel a {
+		text-decoration: none;
+		background-color: #000;
+		color: #ffffe5;
+	}
+
+	.carousel a:hover {
+		text-decoration: none;
+		background-color: #000;
+		color: #ffffe5;
 	}
 }
