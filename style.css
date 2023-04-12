@@ -119,6 +119,7 @@ pre ::selection {
 
 html {
 	background: #ffffe5;
+	background-color: #ffffe5;
 }
 
 body {
@@ -382,13 +383,17 @@ h2 {
 
 
 	body {
+		background: #000;
 		background-color: #000;
-		color: #e4e4e4;
+		color: #ffffe5;
 		accent-color: #ffffe5;
 	}
 
 	h1 {
-		/*color: #2cc08c;*/
+		color: #ffffe5;
+	}
+
+	h2 {
 		color: #ffffe5;
 	}
 
@@ -398,6 +403,7 @@ h2 {
 
 	#moreInfo {
 		padding-top: 50px;
+		color: #ffffe5;
 	}
 
 	#moreInfo span {
@@ -451,6 +457,11 @@ h2 {
 		/*color: #2cc08c;*/
 		color: #ffffe5;
 	}
+
+	.mu-featured-area
+	h2 {
+	color: #ffffe5;
+}
 
 	.mu-featured-slider p,
 	#typed {
