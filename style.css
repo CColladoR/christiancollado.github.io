@@ -292,7 +292,7 @@ h2 {
 
 .card-image {
 	height: 200px;
-	width: 100%;
+	width: 95%;
 	object-fit: cover;
 	filter: brightness(100%) grayscale(20%) sepia(30%);
 	box-shadow: 1px 1px 0px #000,
@@ -300,7 +300,8 @@ h2 {
 		3px 3px 0px #000,
 		4px 4px 0px #000,
 		5px 5px 0px #000,
-		6px 6px 0px #000;
+		6px 6px 0px #000,
+		7px 7px 0px #000;
 }
 .card-image:hover{
 	filter: brightness(100%) grayscale(0%) sepia(0%);
@@ -477,7 +478,8 @@ h2 {
 			3px 3px 0px #ffffe5,
 			4px 4px 0px #ffffe5,
 			5px 5px 0px #ffffe5,
-			6px 6px 0px #ffffe5;
+			6px 6px 0px #ffffe5,
+			7px 7px 0px #ffffe5;
 	}
 
 	.carousel a {
