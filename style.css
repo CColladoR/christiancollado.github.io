@@ -2,6 +2,8 @@
 	--transition-duration-long: 0.5s;
 	--transition-duration-short: 0.25s;
 	--background: #ffffe5;
+	--arc-palette-background: #ffffe5;
+	--arc-palette-foreground: #000;
 	--foreground: #000;
 	--grayish: hsl(225deg 30% 20% / 5%);
 	--gray: hsl(225deg 20% 20% / 10%);
@@ -118,8 +120,8 @@ pre ::selection {
 
 
 html {
-	background: #ffffe5;
-	background-color: #ffffe5;
+	background: var(--arc-palette-background);
+	background-color: var(--arc-palette-background);
 }
 
 body {
@@ -129,13 +131,13 @@ body {
 	text-rendering: optimizeLegibility;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	background-color: #ffffe5;
-	accent-color: #000;
+	background-color: var(--arc-palette-background);
+	accent-color: var(--arc-palette-foreground);
 	display: block;
 	flex-direction: column;
 	min-height: 100vh;
 	height: auto;
-	color: #000;
+	color: var(--arc-palette-foreground);
 }
 
 footer {
@@ -174,13 +176,13 @@ a {
 }
 
 #moreInfo a:hover {
-	color: #000;
+	color:var(--arc-palette-foreground);
 }
 
 a:hover {
-	background-color: #000;
+	background-color: var(--arc-palette-foreground);
 	text-decoration: underline;
-	color: #ffffe5;
+	color: var(--arc-palette-background);
 }
 
 h1 {
@@ -299,7 +301,7 @@ h2 {
 	overflow: hidden;
 	width: 300px;
 	text-decoration: none;
-	background-color: #ffffe5;
+	background-color: var(--arc-palette-background);
 }
 
 .card-image {
@@ -327,8 +329,8 @@ h2 {
 
 .carousel a:hover {
 	text-decoration: none;
-	background-color: #ffffe5;
-	color: #000;
+	background-color: var(--arc-palette-background);
+	color: var(--arc-palette-foreground);
 }
 
 /*--------------------*/
@@ -396,8 +398,8 @@ h2 {
 	body {
 		background: #000;
 		background-color: #000;
-		color: #ffffe5;
-		accent-color: #ffffe5;
+		color: var(--arc-palette-background);
+		accent-color: var(--arc-palette-background);
 	}
 
 	footer {
@@ -405,20 +407,20 @@ h2 {
 	}
 
 	h1 {
-		color: #ffffe5;
+		color: var(--arc-palette-background);
 	}
 
 	h2 {
-		color: #ffffe5;
+		color: var(--arc-palette-background);
 	}
 
 	a {
-		color: #ffffe5;
+		color: var(--arc-palette-background)ç;
 	}
 
 	#moreInfo {
 		padding-top: 50px;
-		color: #ffffe5;
+		color: var(--arc-palette-background);
 	}
 
 	#moreInfo span {
@@ -433,23 +435,23 @@ h2 {
 	}
 
 	#moreInfo a:hover {
-		color: #ffffe5;
+		color: var(--arc-palette-background);
 	}
 
 	a:hover,
 	a:focus {
-		background-color: #ffffe5;
+		background-color: var(--arc-palette-background);
 		text-decoration: underline;
 		color: #000;
 	}
 
 	.mu-featured-content p {
-		color: #ffffe5;
+		color: var(--arc-palette-background);
 	}
 
 	.typed-cursor {
 		/*color: #2cc08c;*/
-		color: #ffffe5;
+		color: var(--arc-palette-background);
 	}
 
 	.mu-primary-btn {
@@ -465,17 +467,17 @@ h2 {
 
 	.mu-featured-slider .typed-cursor {
 		/*color: #2cc08c;*/
-		color: #ffffe5;
+		color: var(--arc-palette-background);
 	}
 
 	.mu-featured-area h1 {
 		/*color: #2cc08c;*/
-		color: #ffffe5;
+		color: var(--arc-palette-background);
 	}
 
 	.mu-featured-area
 	h2 {
-	color: #ffffe5;
+	color: var(--arc-palette-background);
 }
 
 	.mu-featured-slider p,
@@ -485,7 +487,7 @@ h2 {
 
 	:root {
 		--background: #0f0f0f;
-		--foreground: #ffffe5;
+		--foreground: --arc-palette-background;
 		--grayish: hsl(225deg 100% 95% / 8%);
 		--gray: hsl(225deg 100% 92% / 12%);
 		--composite-color-1: var(--blue);
@@ -499,24 +501,24 @@ h2 {
 	}
 
 	.card-image {
-		box-shadow: 1px 1px 0px #ffffe5,
-			2px 2px 0px #ffffe5,
-			3px 3px 0px #ffffe5,
-			4px 4px 0px #ffffe5,
-			5px 5px 0px #ffffe5,
-			6px 6px 0px #ffffe5,
-			7px 7px 0px #ffffe5;
+		box-shadow: 1px 1px 0px var(--arc-palette-background),
+			2px 2px 0px var(--arc-palette-background),
+			3px 3px 0px var(--arc-palette-background),
+			4px 4px 0px var(--arc-palette-background),
+			5px 5px 0px var(--arc-palette-background),
+			6px 6px 0px var(--arc-palette-background),
+			7px 7px 0px var(--arc-palette-background);
 	}
 
 	.carousel a {
 		text-decoration: none;
 		background-color: #000;
-		color: #ffffe5;
+		color: var(--arc-palette-background);
 	}
 
 	.carousel a:hover {
 		text-decoration: none;
 		background-color: #000;
-		color: #ffffe5;
+		color: var(--arc-palette-background);
 	}
 }
