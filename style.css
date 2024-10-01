@@ -1,10 +1,10 @@
 :root {
 	--transition-duration-long: 0.5s;
 	--transition-duration-short: 0.25s;
-	--background: #ffffe5;
-	--arc-palette-background: #ffffe5;
-	--arc-palette-foreground: #000;
-	--foreground: #000;
+	--background: #FF8656;
+	--arc-palette-background: #FF8656;
+	--arc-palette-foreground: #FDFAF3;
+	--foreground: #FDFAF3;
 	--grayish: hsl(225deg 30% 20% / 5%);
 	--gray: hsl(225deg 20% 20% / 10%);
 	--cyan: #0ff;
@@ -153,7 +153,8 @@ footer {
 
 a {
 	text-decoration: underline;
-	color: #000;
+	color: var(--arc-palette-foreground);
+	font-weight: bold;
 }
 
 #moreInfo {
@@ -172,11 +173,12 @@ a {
 #moreInfo a {
 	text-decoration: none;
 	background-color: transparent;
-	color: #b7b7b7;
+	color:var(--arc-palette-foreground);
 }
 
 #moreInfo a:hover {
 	color:var(--arc-palette-foreground);
+	font-weight: bold;
 }
 
 a:hover {
@@ -187,7 +189,7 @@ a:hover {
 
 h1 {
 	font-family: 'Inter Tight', sans-serif;
-	color: #000;
+	color: var(--arc-palette-foreground);
 }
 
 button {
@@ -205,15 +207,15 @@ button {
 	height: 100%;
 	font-size: 18px;
 	line-height: 1.5;
-	border: #000;
+	border: var(--arc-palette-foreground);
 	
-	box-shadow: 1px 1px 0px #000,
-		2px 2px 0px #000,
-		3px 3px 0px #000,
-		4px 4px 0px #000,
-		5px 5px 0px #000,
-		6px 6px 0px #000,
-		7px 7px 0px #000;
+	box-shadow: 1px 1px 0px var(--arc-palette-foreground),
+	2px 2px 0px var(--arc-palette-foreground),
+	3px 3px 0px var(--arc-palette-foreground),
+	4px 4px 0px var(--arc-palette-foreground),
+	5px 5px 0px var(--arc-palette-foreground),
+	6px 6px 0px var(--arc-palette-foreground),
+	7px 7px 0px var(--arc-palette-foreground);
 
 }
 
@@ -260,7 +262,7 @@ button {
 .mu-featured-area h1,
 h2 {
 	font-size: 70px;
-	color: #000;
+	color: var(--arc-palette-foreground);
 	font-weight: 800;
 	margin-bottom: 0;
 	line-height: 1;
@@ -269,7 +271,7 @@ h2 {
 .mu-featured-area
 h2 {
 	font-size: 50px;
-	color: #000;
+	color: var(--arc-palette-foreground);
 	font-weight: 800;
 	margin-bottom: 0;
 	line-height: 1;
@@ -293,14 +295,14 @@ h2 {
 
 .mu-featured-slider p,
 #typed {
-	color: #000;
+	color: var(--arc-palette-foreground);
 	font-size: 16px;
 }
 
 .mu-featured-slider span,
 #typed span,
 .typed-cursor {
-	color: #000;
+	color: var(--arc-palette-foreground);
 	font-weight: 900;
 	font-size: 16px;
 	line-height: 1;
@@ -317,7 +319,7 @@ h2 {
 }
 
 .mu-featured-content p {
-	color: #000;
+	color: var(--arc-palette-foreground);
 }
 
 .mu-featured-content a {
@@ -349,13 +351,13 @@ h2 {
 	width: 95%;
 	object-fit: cover;
 	filter: brightness(100%) grayscale(20%) sepia(30%);
-	box-shadow: 1px 1px 0px #000,
-		2px 2px 0px #000,
-		3px 3px 0px #000,
-		4px 4px 0px #000,
-		5px 5px 0px #000,
-		6px 6px 0px #000,
-		7px 7px 0px #000;
+	box-shadow: 1px 1px 0px var(--arc-palette-foreground),
+		2px 2px 0px var(--arc-palette-foreground),
+		3px 3px 0px var(--arc-palette-foreground),
+		4px 4px 0px var(--arc-palette-foreground),
+		5px 5px 0px var(--arc-palette-foreground),
+		6px 6px 0px var(--arc-palette-foreground),
+		7px 7px 0px var(--arc-palette-foreground);
 }
 .card-image:hover{
 	filter: brightness(100%) grayscale(0%) sepia(0%);
@@ -438,19 +440,19 @@ h2 {
 	body {
 		background: #000;
 		background-color: #000;
-		color: var(--arc-palette-background);
-		accent-color: var(--arc-palette-background);
+		color: var(--arc-palette-foreground);
+		accent-color: var(--arc-palette-foreground);
 	}
 
 	button {
 		background-color: #000;
-		box-shadow: 1px 1px 0px var(--arc-palette-background),
-			2px 2px 0px var(--arc-palette-background),
-			3px 3px 0px var(--arc-palette-background),
-			4px 4px 0px var(--arc-palette-background),
-			5px 5px 0px var(--arc-palette-background),
-			6px 6px 0px var(--arc-palette-background),
-			7px 7px 0px var(--arc-palette-background);
+		box-shadow: 1px 1px 0px var(--arc-palette-foreground),
+			2px 2px 0px var(--arc-palette-foreground),
+			3px 3px 0px var(--arc-palette-foreground),
+			4px 4px 0px var(--arc-palette-foreground),
+			5px 5px 0px var(--arc-palette-foreground),
+			6px 6px 0px var(--arc-palette-foreground),
+			7px 7px 0px var(--arc-palette-foreground);
 	
 	}
 
@@ -459,11 +461,11 @@ h2 {
 	}
 
 	h1 {
-		color: var(--arc-palette-background);
+		color: var(--arc-palette-foreground);
 	}
 
 	h2 {
-		color: var(--arc-palette-background);
+		color: var(--arc-palette-foreground);
 	}
 
 	a {
@@ -472,7 +474,7 @@ h2 {
 
 	#moreInfo {
 		padding-top: 50px;
-		color: var(--arc-palette-background);
+		color: var(--arc-palette-foreground);
 	}
 
 	#moreInfo span {
@@ -482,23 +484,23 @@ h2 {
 	#moreInfo a {
 		text-decoration: none;
 		background-color: transparent;
-		color: #616161;
+		color: var(--arc-palette-foreground);
 		word-spacing: 50%;
 	}
 
 	#moreInfo a:hover {
-		color: var(--arc-palette-background);
+		color: var(--arc-palette-foreground);
 	}
 
 	a:hover,
 	a:focus {
-		background-color: var(--arc-palette-background);
+		background-color: var(--arc-palette-foreground);
 		text-decoration: underline;
-		color: #000;
+		color: var(--arc-palette-foreground);
 	}
 
 	.mu-featured-content p {
-		color: var(--arc-palette-background);
+		color: var(--arc-palette-foreground);
 	}
 
 	.typed-cursor {
@@ -507,19 +509,19 @@ h2 {
 	}
 
 	.mu-primary-btn {
-		border: 2px solid #e4e4e4;
-		color: #e4e4e4;
+		border: 2px solid var(--arc-palette-foreground);
+		color: var(--arc-palette-foreground);
 	}
 
 	.mu-featured-slider span,
 	#typed span {
-		color: #616161;
+		color: var(--arc-palette-foreground);
 
 	}
 
 	.mu-featured-slider .typed-cursor {
 		/*color: #2cc08c;*/
-		color: var(--arc-palette-background);
+		color: var(--arc-palette-foreground);
 	}
 
 	.mu-featured-area h1 {
@@ -534,11 +536,11 @@ h2 {
 
 	.mu-featured-slider p,
 	#typed {
-		color: #e4e4e4;
+		color: var(--arc-palette-foreground);
 	}
 
 	:root {
-		--background: #0f0f0f;
+		--background: --arc-palette-background;
 		--foreground: --arc-palette-background;
 		--grayish: hsl(225deg 100% 95% / 8%);
 		--gray: hsl(225deg 100% 92% / 12%);
@@ -564,8 +566,8 @@ h2 {
 
 	.carousel a {
 		text-decoration: none;
-		background-color: #000;
-		color: var(--arc-palette-background);
+		background-color: var(--foreground);
+		color: var(--arc-palette-foreground);
 	}
 
 	.carousel a:hover {
