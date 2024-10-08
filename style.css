@@ -1,10 +1,10 @@
 :root {
 	--transition-duration-long: 0.5s;
 	--transition-duration-short: 0.25s;
-	--background: #FF8656;
-	--arc-palette-background: #FF8656;
-	--arc-palette-foreground: #FDFAF3;
-	--foreground: #FDFAF3;
+	--background: #EF8428;
+	--arc-palette-background: #EF8428;
+	--arc-palette-foreground: #461708;
+	--foreground: #461708;
 	--grayish: hsl(225deg 30% 20% / 5%);
 	--gray: hsl(225deg 20% 20% / 10%);
 	--cyan: #0ff;
@@ -193,11 +193,11 @@ h1 {
 }
 
 button {
+	color: var(--foreground);
 	background-color: var(--background);
 	text-align: center;
 	width: 200px;
 	text-decoration: none;
-	background-color: var(--arc-palette-background);
 	font-size: 14px;
 	font-weight: bold;
 	padding: 22px;
@@ -433,19 +433,20 @@ h2 {
 @media (prefers-color-scheme: dark) {
 
 	html {
-		background: #000;
+		background: #461708;
 	}
 
 
 	body {
-		background: #000;
-		background-color: #000;
-		color: var(--arc-palette-foreground);
-		accent-color: var(--arc-palette-foreground);
+		background: var(--arc-palette-foreground);
+		background-color: var(--arc-palette-foreground);
+		color: var(var(--arc-palette-background));
+		accent-color: var(--arc-palette-background);
 	}
 
 	button {
-		background-color: #000;
+		color: var(--arc-palette-background);
+		background-color: var(--arc-palette-foreground);
 		box-shadow: 1px 1px 0px var(--arc-palette-background),
 			2px 2px 0px var(--arc-palette-background),
 			3px 3px 0px var(--arc-palette-background),
@@ -494,13 +495,13 @@ h2 {
 
 	a:hover,
 	a:focus {
-		background-color: var(--arc-palette-foreground);
+		background-color: var(--arc-palette-background);
 		text-decoration: underline;
 		color: var(--arc-palette-foreground);
 	}
 
 	.mu-featured-content p {
-		color: var(--arc-palette-foreground);
+		color: var(--arc-palette-background);
 	}
 
 	.typed-cursor {
@@ -515,7 +516,7 @@ h2 {
 
 	.mu-featured-slider span,
 	#typed span {
-		color: var(--arc-palette-foreground);
+		color: var(--arc-palette-background);
 
 	}
 
@@ -567,7 +568,7 @@ h2 {
 	.carousel a {
 		text-decoration: none;
 		background-color: var(--foreground);
-		color: var(--arc-palette-foreground);
+		color: var(--arc-palette-background);
 	}
 
 	.carousel a:hover {
