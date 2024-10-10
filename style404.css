@@ -25,8 +25,8 @@ body {
   align-content: center;
   justify-content: center;
   padding: 12px;
-  background: #ffffe5;
-  color: #000;
+  background: #DBE5B9;
+  color: #294D58;
   font-family: 'Inter Tight', sans-serif;
   font-size: 20px;
   letter-spacing: 0.01em;
@@ -66,7 +66,7 @@ a:focus {
 
 a:active b {
   /*color: #2cc08c;*/
-  color: #ffffe5;
+  color: #DBE5B9;
   text-decoration: none
 }
 
@@ -114,7 +114,7 @@ main>div svg {
 }
 
 main>div svg polygon {
-  fill: #ffffe5;
+  fill: #DBE5B9;
 }
 
 main>div span {
@@ -194,7 +194,7 @@ main>div:last-child span:last-child {
 
 @-webkit-keyframes removeFill {
   0% {
-    fill: #e4e4e4;
+    fill: #294D58;
   }
 
   100% {
@@ -204,7 +204,7 @@ main>div:last-child span:last-child {
 
 @keyframes removeFill {
   0% {
-    fill: #e4e4e4;
+    fill: #DBE5B9;
   }
 
   100% {

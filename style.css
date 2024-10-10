@@ -1,10 +1,10 @@
 :root {
 	--transition-duration-long: 0.5s;
 	--transition-duration-short: 0.25s;
-	--background: #EF8428;
-	--arc-palette-background: #EF8428;
-	--arc-palette-foreground: #461708;
-	--foreground: #461708;
+	--background: #DBE5B9;
+	--arc-palette-background: #DBE5B9;
+	--arc-palette-foreground: #294D58;
+	--foreground: #294D58;
 	--grayish: hsl(225deg 30% 20% / 5%);
 	--gray: hsl(225deg 20% 20% / 10%);
 	--cyan: #0ff;
@@ -24,7 +24,7 @@
 	--font-size-hero: 5.5rem;
 	--font-size-title: 2.375rem;
 	--font-size-heading: 1.75rem;
-	--font-size-body: 1.1875rem;
+	--font-size-body: 2rem;
 	--font-size-post-scriptum: 1.375rem;
 	--border-thickness: 0.125rem;
 	--shadow-distance: 0.25rem
@@ -126,7 +126,7 @@ html {
 
 body {
 	overflow: auto;
-	font-weight: 400;
+	font-weight: 500;
 	font-family: 'Inter Tight', sans-serif;
 	text-rendering: optimizeLegibility;
 	-moz-osx-font-smoothing: grayscale;
@@ -433,7 +433,7 @@ h2 {
 @media (prefers-color-scheme: dark) {
 
 	html {
-		background: #461708;
+		background: var(--foreground);
 	}
 
 
