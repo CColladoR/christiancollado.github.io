@@ -573,7 +573,7 @@ h2 {
 
 	.carousel a:hover {
 		text-decoration: none;
-		background-color: #000;
+		background-color: var(--arc-palette-foreground);
 		color: var(--arc-palette-background);
 	}
 }
