@@ -1,48 +1,31 @@
+
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <title>Error 404</title>
-  <link href="style404.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter+Tight:wght@300&display=swap"
-    rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página no encontrada | Christian Collado</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .mesh-gradient {
+            background: radial-gradient(at 0% 0%, hsla(253,16%,95%,1) 0, transparent 50%), 
+                        radial-gradient(at 100% 0%, hsla(225,39%,90%,0.4) 0, transparent 50%),
+                        radial-gradient(at 50% 100%, hsla(339,49%,95%,0.3) 0, transparent 50%);
+        }
+    </style>
+    <script>
+        // Redirección simple al inicio si se intenta acceder a una ruta inexistente
+        // Útil para despliegues en subdirectorios de GH Pages
+        window.location.href = "/";
+    </script>
 </head>
-
-<body>
-  <main>
-    <div>
-      <div>
-        <span>Error 404</span>
-        <span>La página que buscas no se ha encontrado</span>
-      </div>
-      <svg viewBox='0 0 200 600'>
-        <polygon
-          points='118.302698 8 59.5369448 66.7657528 186.487016 193.715824 14 366.202839 153.491505 505.694344 68.1413353 591.044514 200 591.044514 200 8'>
-        </polygon>
-      </svg>
+<body class="mesh-gradient min-h-screen flex items-center justify-center font-sans">
+    <div class="text-center p-8 bg-white/40 backdrop-blur-xl border border-white/60 rounded-[2.5rem] shadow-2xl max-w-md">
+        <h1 class="text-6xl font-black text-black mb-4">404</h1>
+        <p class="text-black/60 font-medium mb-8 uppercase tracking-widest text-xs">Parece que te has perdido</p>
+        <a href="/" class="inline-block px-8 py-4 bg-black text-white text-[10px] font-black uppercase tracking-[0.2em] rounded-full hover:bg-indigo-600 transition-all">
+            Volver al inicio
+        </a>
     </div>
-    <svg class='crack' viewBox='0 0 200 600'>
-      <polyline
-        points='118.302698 8 59.5369448 66.7657528 186.487016 193.715824 14 366.202839 153.491505 505.694344 68.1413353 591.044514'>
-      </polyline>
-    </svg>
-    <div>
-      <svg viewBox='0 0 200 600'>
-        <polygon
-          points='118.302698 8 59.5369448 66.7657528 186.487016 193.715824 14 366.202839 153.491505 505.694344 68.1413353 591.044514 0 591.044514 0 8'>
-        </polygon>
-      </svg>
-      <div>
-        <span>
-          <a href="index.html">
-            <b>¿Volver al inicio?</b>
-          </a>
-        </span>
-      </div>
-    </div>
-  </main>
 </body>
-
 </html>
